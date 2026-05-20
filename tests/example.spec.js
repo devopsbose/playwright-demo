@@ -1,19 +1,26 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
+import { PlaywrightDevPage } from '../pages/PlaywrightDevPage.js';
 
 test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-
+  const playwrightPage = new PlaywrightDevPage(page);
+  
+  await playwrightPage.navigateToHome();
+  
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+  const title = await playwrightPage.validatePageTitle();
+  expect(title).toContain('Playwright');
 });
 
 test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  const playwrightPage = new PlaywrightDevPage(page);
+  
+  await playwrightPage.navigateToHome();
 
   // Click the get started link.
-    await page.getByRole('link', { name: 'Get started' }).click();
+  await playwrightPage.clickGetStartedLink();
 
   // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+  const isInstallationHeadingVisible = await playwrightPage.validateInstallationHeadingVisible();
+  expect(isInstallationHeadingVisible).toBeTruthy();
 });
