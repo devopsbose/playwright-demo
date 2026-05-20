@@ -5,7 +5,7 @@
 
 export const browserConfig = {
   chromium: {
-    version: 'latest', // Options: 'latest', 'beta', or specific version like '126.0.6478.55'
+    version: '126.0.6478.55', // Options: 'latest', 'beta', or specific version like '126.0.6478.55'
     channel: undefined, // Options: 'chrome', 'chrome-beta', 'chrome-dev', 'chrome-canary', undefined (default Playwright Chromium)
     headless: false,
   },
