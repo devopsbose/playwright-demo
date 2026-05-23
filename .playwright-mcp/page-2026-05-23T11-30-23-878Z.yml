@@ -1,0 +1,418 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e9]:
+        - button "Toggle navigation" [ref=e11] [cursor=pointer]
+        - link "Homepage" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img [ref=e18]
+        - generic [ref=e20]:
+          - link "Sign in" [ref=e21] [cursor=pointer]:
+            - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fdevopsbose%2Fplaywright-demo
+          - button "Appearance settings" [ref=e24] [cursor=pointer]:
+            - img
+  - main [ref=e28]:
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - img [ref=e33]
+          - link "devopsbose" [ref=e36] [cursor=pointer]:
+            - /url: /devopsbose
+          - generic [ref=e37]: /
+          - strong [ref=e38]:
+            - link "playwright-demo" [ref=e39] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo
+          - generic [ref=e40]: Public
+        - generic [ref=e41]:
+          - list:
+            - listitem [ref=e42]:
+              - link "You must be signed in to change notification settings" [ref=e43] [cursor=pointer]:
+                - /url: /login?return_to=%2Fdevopsbose%2Fplaywright-demo
+                - img [ref=e44]
+                - text: Notifications
+            - listitem [ref=e46]:
+              - link "Fork 0" [ref=e47] [cursor=pointer]:
+                - /url: /login?return_to=%2Fdevopsbose%2Fplaywright-demo
+                - img [ref=e48]
+                - text: Fork
+                - generic "0" [ref=e50]
+            - listitem [ref=e51]:
+              - link "You must be signed in to star a repository" [ref=e53] [cursor=pointer]:
+                - /url: /login?return_to=%2Fdevopsbose%2Fplaywright-demo
+                - img [ref=e54]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e56]: "0"
+      - navigation "Repository" [ref=e57]:
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - link "Code" [ref=e60] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo
+              - img [ref=e61]
+              - generic [ref=e63]: Code
+          - listitem [ref=e64]:
+            - link "Issues" [ref=e65] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo/issues
+              - img [ref=e66]
+              - generic [ref=e69]: Issues
+          - listitem [ref=e70]:
+            - link "Pull requests" [ref=e71] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo/pulls
+              - img [ref=e72]
+              - generic [ref=e74]: Pull requests
+          - listitem [ref=e75]:
+            - link "Actions" [ref=e76] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo/actions
+              - img [ref=e77]
+              - generic [ref=e79]: Actions
+          - listitem [ref=e80]:
+            - link "Projects" [ref=e81] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo/projects
+              - img [ref=e82]
+              - generic [ref=e84]: Projects
+          - listitem [ref=e85]:
+            - link "Security and quality" [ref=e86] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo/security
+              - img [ref=e87]
+              - generic [ref=e89]: Security and quality
+          - listitem [ref=e90]:
+            - link "Insights" [ref=e91] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo/pulse
+              - img [ref=e92]
+              - generic [ref=e94]: Insights
+    - generic [ref=e107]:
+      - heading "devopsbose/playwright-demo" [level=1] [ref=e109]
+      - generic [ref=e110]:
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - button "main branch" [ref=e117] [cursor=pointer]:
+                - generic [ref=e118]:
+                  - generic [ref=e120]:
+                    - img [ref=e122]
+                    - generic [ref=e125]: main
+                  - generic:
+                    - img
+              - generic [ref=e126]:
+                - link "Go to Branches page" [ref=e127] [cursor=pointer]:
+                  - /url: /devopsbose/playwright-demo/branches
+                  - img [ref=e128]
+                - link "Go to Tags page" [ref=e130] [cursor=pointer]:
+                  - /url: /devopsbose/playwright-demo/tags
+                  - img [ref=e131]
+            - generic [ref=e133]:
+              - button "Go to file" [ref=e136] [cursor=pointer]:
+                - generic [ref=e138]: Go to file
+              - button "Code" [ref=e139] [cursor=pointer]:
+                - generic [ref=e140]:
+                  - generic:
+                    - img
+                  - generic [ref=e141]: Code
+                  - generic:
+                    - img
+          - generic [ref=e143]:
+            - heading "Folders and files" [level=2] [ref=e144]
+            - table "Folders and files" [ref=e145]:
+              - rowgroup:
+                - row "Name Last commit message Last commit date":
+                  - columnheader "Name"
+                  - columnheader "Last commit message":
+                    - generic "Last commit message"
+                  - columnheader "Last commit date":
+                    - generic "Last commit date"
+              - rowgroup [ref=e146]:
+                - 'row "Latest commit devopsbose commits by devopsbose Merge pull request #2 from devopsbose/bose Open commit details success Commit b7b8b69 · May 20, 20263 days ago History View commit history for this file." [ref=e147]':
+                  - 'cell "Latest commit devopsbose commits by devopsbose Merge pull request #2 from devopsbose/bose Open commit details success Commit b7b8b69 · May 20, 20263 days ago History View commit history for this file." [ref=e148]':
+                    - generic [ref=e149]:
+                      - heading "Latest commit" [level=2] [ref=e150]
+                      - generic [ref=e151]:
+                        - generic [ref=e153]:
+                          - link "devopsbose" [ref=e154] [cursor=pointer]:
+                            - /url: /devopsbose
+                            - img "devopsbose" [ref=e155]
+                          - link "commits by devopsbose" [ref=e156] [cursor=pointer]:
+                            - /url: /devopsbose/playwright-demo/commits?author=devopsbose
+                            - text: devopsbose
+                        - generic [ref=e157]:
+                          - generic [ref=e159]:
+                            - link "Merge pull request" [ref=e160] [cursor=pointer]:
+                              - /url: /devopsbose/playwright-demo/commit/b7b8b69818e8fddffd6e6ab003f6eea7a7c359f4
+                            - link "#2" [ref=e161] [cursor=pointer]:
+                              - /url: https://github.com/devopsbose/playwright-demo/pull/2
+                            - link "from devopsbose/bose" [ref=e162] [cursor=pointer]:
+                              - /url: /devopsbose/playwright-demo/commit/b7b8b69818e8fddffd6e6ab003f6eea7a7c359f4
+                          - button "Open commit details" [ref=e163] [cursor=pointer]:
+                            - img [ref=e164]
+                          - button "success" [ref=e166] [cursor=pointer]:
+                            - img [ref=e167]
+                      - generic [ref=e169]:
+                        - generic [ref=e171]:
+                          - link "Commit b7b8b69" [ref=e172] [cursor=pointer]:
+                            - /url: /devopsbose/playwright-demo/commit/b7b8b69818e8fddffd6e6ab003f6eea7a7c359f4
+                            - text: b7b8b69
+                          - text: ·
+                          - generic "May 20, 2026, 9:25 PM GMT+5:30" [ref=e173]: May 20, 20263 days ago
+                        - generic [ref=e174]:
+                          - heading "History" [level=2] [ref=e175]
+                          - link "View commit history for this file." [ref=e177] [cursor=pointer]:
+                            - /url: /devopsbose/playwright-demo/commits/main/
+                            - generic [ref=e178]:
+                              - generic:
+                                - img
+                - row ".github/workflows, (Directory) committing-playwright-demo-repo-changes May 20, 20263 days ago" [ref=e179]:
+                  - cell ".github/workflows, (Directory)" [ref=e180]:
+                    - generic [ref=e181]:
+                      - img [ref=e182]
+                      - link ".github/workflows, (Directory)" [ref=e187] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/tree/main/.github/workflows
+                        - text: .github/workflows
+                  - cell "committing-playwright-demo-repo-changes" [ref=e188]:
+                    - link "committing-playwright-demo-repo-changes" [ref=e191] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/9e402f6ba67e4fefc296b963792727b29aed1f30
+                  - cell "May 20, 20263 days ago" [ref=e192]:
+                    - generic [ref=e193]: May 20, 20263 days ago
+                - row "e2e, (Directory) committing-playwright-demo-repo-changes May 20, 20263 days ago" [ref=e194]:
+                  - cell "e2e, (Directory)" [ref=e195]:
+                    - generic [ref=e196]:
+                      - img [ref=e197]
+                      - link "e2e, (Directory)" [ref=e202] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/tree/main/e2e
+                        - text: e2e
+                  - cell "committing-playwright-demo-repo-changes" [ref=e203]:
+                    - link "committing-playwright-demo-repo-changes" [ref=e206] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/9e402f6ba67e4fefc296b963792727b29aed1f30
+                  - cell "May 20, 20263 days ago" [ref=e207]:
+                    - generic [ref=e208]: May 20, 20263 days ago
+                - row "pages, (Directory) locators and page access logic May 20, 20263 days ago" [ref=e209]:
+                  - cell "pages, (Directory)" [ref=e210]:
+                    - generic [ref=e211]:
+                      - img [ref=e212]
+                      - link "pages, (Directory)" [ref=e217] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/tree/main/pages
+                        - text: pages
+                  - cell "locators and page access logic" [ref=e218]:
+                    - link "locators and page access logic" [ref=e221] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/15c1f22236216c6e61719a90150548f693cfe03d
+                  - cell "May 20, 20263 days ago" [ref=e222]:
+                    - generic [ref=e223]: May 20, 20263 days ago
+                - row "pom, (Directory) latest changed to chrome May 20, 20263 days ago" [ref=e224]:
+                  - cell "pom, (Directory)" [ref=e225]:
+                    - generic [ref=e226]:
+                      - img [ref=e227]
+                      - link "pom, (Directory)" [ref=e232] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/tree/main/pom
+                        - text: pom
+                  - cell "latest changed to chrome" [ref=e233]:
+                    - link "latest changed to chrome" [ref=e236] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/843a9811d5e6e6d379cd11dadf14162dcac219ff
+                  - cell "May 20, 20263 days ago" [ref=e237]:
+                    - generic [ref=e238]: May 20, 20263 days ago
+                - row "tests-examples, (Directory) committing-playwright-demo-repo-changes May 20, 20263 days ago" [ref=e239]:
+                  - cell "tests-examples, (Directory)" [ref=e240]:
+                    - generic [ref=e241]:
+                      - img [ref=e242]
+                      - link "tests-examples, (Directory)" [ref=e247] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/tree/main/tests-examples
+                        - text: tests-examples
+                  - cell "committing-playwright-demo-repo-changes" [ref=e248]:
+                    - link "committing-playwright-demo-repo-changes" [ref=e251] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/9e402f6ba67e4fefc296b963792727b29aed1f30
+                  - cell "May 20, 20263 days ago" [ref=e252]:
+                    - generic [ref=e253]: May 20, 20263 days ago
+                - row "tests, (Directory) locators and page access logic May 20, 20263 days ago" [ref=e254]:
+                  - cell "tests, (Directory)" [ref=e255]:
+                    - generic [ref=e256]:
+                      - img [ref=e257]
+                      - link "tests, (Directory)" [ref=e262] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/tree/main/tests
+                        - text: tests
+                  - cell "locators and page access logic" [ref=e263]:
+                    - link "locators and page access logic" [ref=e266] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/15c1f22236216c6e61719a90150548f693cfe03d
+                  - cell "May 20, 20263 days ago" [ref=e267]:
+                    - generic [ref=e268]: May 20, 20263 days ago
+                - row ".gitignore, (File) committing-playwright-demo-repo-changes May 20, 20263 days ago" [ref=e269]:
+                  - cell ".gitignore, (File)" [ref=e270]:
+                    - generic [ref=e271]:
+                      - img [ref=e272]
+                      - link ".gitignore, (File)" [ref=e277] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/blob/main/.gitignore
+                        - text: .gitignore
+                  - cell "committing-playwright-demo-repo-changes" [ref=e278]:
+                    - link "committing-playwright-demo-repo-changes" [ref=e281] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/9e402f6ba67e4fefc296b963792727b29aed1f30
+                  - cell "May 20, 20263 days ago" [ref=e282]:
+                    - generic [ref=e283]: May 20, 20263 days ago
+                - row "installation-pip-install-playwright.txt, (File) committing-playwright-demo-repo-changes May 20, 20263 days ago" [ref=e284]:
+                  - cell "installation-pip-install-playwright.txt, (File)" [ref=e285]:
+                    - generic [ref=e286]:
+                      - img [ref=e287]
+                      - link "installation-pip-install-playwright.txt, (File)" [ref=e292] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/blob/main/installation-pip-install-playwright.txt
+                        - text: installation-pip-install-playwright.txt
+                  - cell "committing-playwright-demo-repo-changes" [ref=e293]:
+                    - link "committing-playwright-demo-repo-changes" [ref=e296] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/9e402f6ba67e4fefc296b963792727b29aed1f30
+                  - cell "May 20, 20263 days ago" [ref=e297]:
+                    - generic [ref=e298]: May 20, 20263 days ago
+                - row "package-lock.json, (File) committing-playwright-demo-repo-changes May 20, 20263 days ago" [ref=e299]:
+                  - cell "package-lock.json, (File)" [ref=e300]:
+                    - generic [ref=e301]:
+                      - img [ref=e302]
+                      - link "package-lock.json, (File)" [ref=e307] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/blob/main/package-lock.json
+                        - text: package-lock.json
+                  - cell "committing-playwright-demo-repo-changes" [ref=e308]:
+                    - link "committing-playwright-demo-repo-changes" [ref=e311] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/9e402f6ba67e4fefc296b963792727b29aed1f30
+                  - cell "May 20, 20263 days ago" [ref=e312]:
+                    - generic [ref=e313]: May 20, 20263 days ago
+                - row "package.json, (File) committing-playwright-demo-repo-changes May 20, 20263 days ago" [ref=e314]:
+                  - cell "package.json, (File)" [ref=e315]:
+                    - generic [ref=e316]:
+                      - img [ref=e317]
+                      - link "package.json, (File)" [ref=e322] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/blob/main/package.json
+                        - text: package.json
+                  - cell "committing-playwright-demo-repo-changes" [ref=e323]:
+                    - link "committing-playwright-demo-repo-changes" [ref=e326] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/9e402f6ba67e4fefc296b963792727b29aed1f30
+                  - cell "May 20, 20263 days ago" [ref=e327]:
+                    - generic [ref=e328]: May 20, 20263 days ago
+                - row "playwright.config.js, (File) committing-playwright-demo-repo-changes May 20, 20263 days ago" [ref=e329]:
+                  - cell "playwright.config.js, (File)" [ref=e330]:
+                    - generic [ref=e331]:
+                      - img [ref=e332]
+                      - link "playwright.config.js, (File)" [ref=e337] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/blob/main/playwright.config.js
+                        - text: playwright.config.js
+                  - cell "committing-playwright-demo-repo-changes" [ref=e338]:
+                    - link "committing-playwright-demo-repo-changes" [ref=e341] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/9e402f6ba67e4fefc296b963792727b29aed1f30
+                  - cell "May 20, 20263 days ago" [ref=e342]:
+                    - generic [ref=e343]: May 20, 20263 days ago
+                - row "playwright.config.ts, (File) committing-playwright-demo-repo-changes May 20, 20263 days ago" [ref=e344]:
+                  - cell "playwright.config.ts, (File)" [ref=e345]:
+                    - generic [ref=e346]:
+                      - img [ref=e347]
+                      - link "playwright.config.ts, (File)" [ref=e352] [cursor=pointer]:
+                        - /url: /devopsbose/playwright-demo/blob/main/playwright.config.ts
+                        - text: playwright.config.ts
+                  - cell "committing-playwright-demo-repo-changes" [ref=e353]:
+                    - link "committing-playwright-demo-repo-changes" [ref=e356] [cursor=pointer]:
+                      - /url: /devopsbose/playwright-demo/commit/9e402f6ba67e4fefc296b963792727b29aed1f30
+                  - cell "May 20, 20263 days ago" [ref=e357]:
+                    - generic [ref=e358]: May 20, 20263 days ago
+        - generic [ref=e362]:
+          - generic [ref=e365]:
+            - heading "About" [level=2] [ref=e366]
+            - paragraph [ref=e367]: playwright-demo for training class
+            - link "Activity" [ref=e369] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo/activity
+              - img [ref=e370]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e372]
+            - link "0 stars" [ref=e374] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo/stargazers
+              - img [ref=e375]
+              - strong [ref=e377]: "0"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e378]
+            - link "0 watching" [ref=e380] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo/watchers
+              - img [ref=e381]
+              - strong [ref=e383]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e384]
+            - link "0 forks" [ref=e386] [cursor=pointer]:
+              - /url: /devopsbose/playwright-demo/forks
+              - img [ref=e387]
+              - strong [ref=e389]: "0"
+              - text: forks
+            - link "Report repository" [ref=e391] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fdevopsbose%2Fplaywright-demo&report=devopsbose+%28user%29
+          - generic [ref=e393]:
+            - heading "Releases" [level=2] [ref=e394]:
+              - link "Releases" [ref=e395] [cursor=pointer]:
+                - /url: /devopsbose/playwright-demo/releases
+            - generic [ref=e396]: No releases published
+          - generic [ref=e398]:
+            - heading "Packages" [level=2] [ref=e399]:
+              - link "Packages" [ref=e400] [cursor=pointer]:
+                - /url: /users/devopsbose/packages?repo_name=playwright-demo
+            - generic [ref=e401]: No packages published
+          - generic [ref=e403]:
+            - heading "Contributors 2" [level=2] [ref=e404]:
+              - link "Contributors 2" [ref=e405] [cursor=pointer]:
+                - /url: /devopsbose/playwright-demo/graphs/contributors
+                - text: Contributors
+                - generic "2" [ref=e406]
+            - list [ref=e407]:
+              - listitem [ref=e408]:
+                - link "@Devopssquadtechire" [ref=e409] [cursor=pointer]:
+                  - /url: https://github.com/Devopssquadtechire
+                  - img "@Devopssquadtechire" [ref=e410]
+                - link "Devopssquadtechire Chandrabose" [ref=e412] [cursor=pointer]:
+                  - /url: https://github.com/Devopssquadtechire
+                  - strong [ref=e413]: Devopssquadtechire
+                  - text: Chandrabose
+              - listitem [ref=e414]:
+                - link "@devopsbose" [ref=e415] [cursor=pointer]:
+                  - /url: https://github.com/devopsbose
+                  - img "@devopsbose" [ref=e416]
+                - link "devopsbose" [ref=e418] [cursor=pointer]:
+                  - /url: https://github.com/devopsbose
+                  - strong [ref=e419]: devopsbose
+          - generic [ref=e421]:
+            - heading "Languages" [level=2] [ref=e422]
+            - list [ref=e427]:
+              - listitem [ref=e428]:
+                - link "JavaScript 57.8%" [ref=e429] [cursor=pointer]:
+                  - /url: /devopsbose/playwright-demo/search?l=javascript
+                  - img [ref=e430]
+                  - generic [ref=e432]: JavaScript
+                  - generic [ref=e433]: 57.8%
+              - listitem [ref=e434]:
+                - link "TypeScript 42.2%" [ref=e435] [cursor=pointer]:
+                  - /url: /devopsbose/playwright-demo/search?l=typescript
+                  - img [ref=e436]
+                  - generic [ref=e438]: TypeScript
+                  - generic [ref=e439]: 42.2%
+  - contentinfo [ref=e441]:
+    - heading "Footer" [level=2] [ref=e442]
+    - generic [ref=e443]:
+      - generic [ref=e444]:
+        - link "GitHub Homepage" [ref=e445] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e446]
+        - generic [ref=e448]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e449]:
+        - heading "Footer navigation" [level=3] [ref=e450]
+        - list "Footer navigation" [ref=e451]:
+          - listitem [ref=e452]:
+            - link "Terms" [ref=e453] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e454]:
+            - link "Privacy" [ref=e455] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e456]:
+            - link "Security" [ref=e457] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e458]:
+            - link "Status" [ref=e459] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e460]:
+            - link "Community" [ref=e461] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e462]:
+            - link "Docs" [ref=e463] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e464]:
+            - link "Contact" [ref=e465] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e466]:
+            - button "Manage cookies" [ref=e468] [cursor=pointer]
+          - listitem [ref=e469]:
+            - button "Do not share my personal information" [ref=e471] [cursor=pointer]
