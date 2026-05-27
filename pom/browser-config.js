@@ -9,10 +9,10 @@ export const browserConfig = {
     channel: chrome, // Options: 'chrome', 'chrome-beta', 'chrome-dev', 'chrome-canary', undefined (default Playwright Chromium)
     headless: false,
   },
-  firefox: {
-    version: 'latest',
-    headless: false,
-  },
+  // firefox: {
+  //   version: 'latest',
+  //   headless: false,
+  // },
   webkit: {
     version: 'latest',
     headless: false,
